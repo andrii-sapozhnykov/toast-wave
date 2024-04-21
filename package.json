@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/toast-wave"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight and customizable React library for beautiful and user-friendly notifications (toasts) that can be easily integrated into your applications.",
   "scripts": {
     "rollup": "rollup -c",
@@ -53,5 +53,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/andrii-sapozhnykov"
+  }
 }

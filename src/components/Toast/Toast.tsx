@@ -5,7 +5,7 @@ interface ToastProps {
 }
 
 const Toast: React.FC<ToastProps> = ({ text }) => {
-	return <div>Toast</div>
+	return <div>{text}</div>
 }
 
 export default Toast
